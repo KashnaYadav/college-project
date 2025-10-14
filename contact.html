@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Craftify</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-palette"></i>
+                    Craftify
+                </a>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tutorials.html">Tutorials</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding: 3rem 0; background: linear-gradient(135deg, var(--accent) 0%, var(--pastel-yellow) 100%);">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Get In Touch</h1>
+                <p>We'd love to hear from you! Send us a message and we'll respond as soon as possible.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 4rem;">
+                <div>
+                    <h2 class="section-title" style="text-align: left;">Send Us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div>
+                    <h2 class="section-title" style="text-align: left;">Contact Information</h2>
+                    <div class="card" style="margin-bottom: 2rem;">
+                        <div class="card-body">
+                            <h3 style="display: flex; align-items: center; margin-bottom: 1rem;">
+                                <i class="fas fa-map-marker-alt" style="color: var(--primary); margin-right: 10px;"></i>
+                                Our Address
+                            </h3>
+                            <p>POORNIMA UNIVERSITY<br>JAIPUR, RAJASTHAN<br>INDIA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card" style="margin-bottom: 2rem;">
+                        <div class="card-body">
+                            <h3 style="display: flex; align-items: center; margin-bottom: 1rem;">
+                                <i class="fas fa-phone" style="color: var(--primary); margin-right: 10px;"></i>
+                                Phone Number
+                            </h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card" style="margin-bottom: 2rem;">
+                        <div class="card-body">
+                            <h3 style="display: flex; align-items: center; margin-bottom: 1rem;">
+                                <i class="fas fa-envelope" style="color: var(--primary); margin-right: 10px;"></i>
+                                Email Address
+                            </h3>
+                            <p>hello@craftify.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 style="display: flex; align-items: center; margin-bottom: 1rem;">
+                                <i class="fas fa-clock" style="color: var(--primary); margin-right: 10px;"></i>
+                                Business Hours
+                            </h3>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" style="background-color: var(--pastel-pink);">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">How can I submit my own tutorial?</h3>
+                        <p class="card-text">We love featuring community tutorials! Please send us an email with details about your project, along with photos and step-by-step instructions.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Do you offer video tutorials?</h3>
+                        <p class="card-text">Yes! We're gradually adding video versions of our most popular tutorials. You can find them on our YouTube channel linked in the footer.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Can I request a specific tutorial?</h3>
+                        <p class="card-text">Absolutely! We're always looking for new ideas. Use the contact form to suggest a tutorial topic you'd like to see on Craftify.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Do you sell craft supplies?</h3>
+                        <p class="card-text">We don't sell supplies directly, but we often include links to recommended products in our tutorials. We're committed to suggesting quality, accessible materials.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Craftify</h4>
+                    <p>Your go-to platform for DIY and art tutorials. Unleash your creativity with our step-by-step guides.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="categories.html">Home Decor</a></li>
+                        <li><a href="categories.html">Painting</a></li>
+                        <li><a href="categories.html">Paper Crafts</a></li>
+                        <li><a href="categories.html">DIY Jewelry</a></li>
+                        <li><a href="categories.html">Gifts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> hello@craftify.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Creative St, Art City</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Craftify. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
